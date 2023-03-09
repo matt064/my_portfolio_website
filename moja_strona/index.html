@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matt Gawronski</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="default.css">
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+    <section class="s1">
+        <div class="main-container">
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div id="theme-options-wrapper">
+                        <p>Light/Dark Mode: </p>
+                        <div data-mode="light" id='light-mode' class="theme-dot"></div>
+                        <div data-mode="blue" class="theme-dot"></div>
+                    </div>
+                </div>
+
+                <div class="left-column">
+                    <img id='profile_pic' src="static/images/mateusz.jpg">
+                </div>
+
+                
+                <div class="right-column">
+
+                                <h1>Hi! I'm Mateusz Gawroński</h1>
+                                <h3> Python Developer</h3>
+                                <br>
+                                <hr>
+                                <div id="short-info">
+                                    <p>
+                                    *This is my initial form of the website.
+                                     As my knowledge broadens, the site will get better and better.
+                                    </p>
+                                </div>
+
+                </div>
+
+            </div>    
+
+        </div>
+    </section>
+    <section class="s2">
+        <div class="main-container">
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4> More about me</h4>
+
+                    <p>
+                        I am a motivated, diligent Python Developer. Responsible 
+                        and able to meet tight deadlines.
+                    </p>
+
+                    <p> Always trying to imporove my work by looking for new solutions.</p>
+
+                    <p>I'm now looking for a junior position to finally kick start my career
+                        and learn among professionals.
+                    </p>
+
+
+                    <hr>
+                    <h4> Technical skills </h4>
+
+                    <div id="skills">
+                        <ul>
+                            <li> Python </li>
+                            <li> SQL </li>
+                            <li> HTML </li>
+                            <li> CSS </li>
+                            <li> GitHub</li>
+                        </ul>
+                        <ul>
+                            <li> SQLAlchemy </li>
+                            <li> Flask </li>
+                            <li> Django </li>
+                            <li> Pytest </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="social-links">
+                    <h3> Download: </h3>
+                    <p><a target="_blank" href="static/files/Gawronski_CV_english.pdf">My Resume</a></p>
+                    
+                    <h3>Find me on:</h3>
+                    <a target="_blank" href="https://linkedin.com/in/mateuszgawronski">LinkedIn:  <i class="fa fa-linkedin fa-3x"> </i></a>
+                    <a target="_blank" href="https://github.com/matt064">GitHub:  <i class="fa fa-github fa-3x"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="s1">
+        <div class="main-container">
+
+            <h3 style="text-align: center;">Some of my projects</h3>
+
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="static/images/quiz.PNG">
+
+                        <div class="post-preview">
+                            <h6 class="post-title">Quiz</h6>
+                            <p class="post-intro">
+                                Simple quiz game using questions from 
+                                <b>Open Trivia Database</b></p>
+                            <a href="https://github.com/matt064/quiz_pyqt5.git" target="_blank"> Check it on GitHub </a>     
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="static/images/screen_movies.PNG">
+
+                        <div class="post-preview">
+                            <h6 class="post-title">Movies Library</h6>
+                            <p class="post-intro">
+                                Movies library made with Flask using 
+                                <b> The Movie Database API</b></p>
+                            <a href="https://github.com/matt064/movies_catalogue.git" target="_blank">Check it on GitHub </a>    
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="static/images/generator.PNG">
+
+                        <div class="post-preview">
+                            <h6 class="post-title">Password generator</h6>
+                            <p class="post-intro">
+                                App allows you to create passwords based
+                                on parameters set by you.</p>
+                            <a href="#" target="_blank"> Check it on GitHub </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="s2">
+        <div class="main-container">
+            <h3 style="text-align: center;"> Get In Touch </h3>
+
+            <form id="contact-form" action="https://formsubmit.co/gawronski.m91@gmail.com" method="POST" >
+                <label>Name</label>
+                <input class="input-field" type="text" name="name" required>
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject" required>
+
+                <label> Email </label>
+                <input class="input-field" type="email" name="email" required>
+
+                <label> Message </label>
+                <textarea class="input-field" name="message" required></textarea>
+                
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
